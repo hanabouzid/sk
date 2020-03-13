@@ -1,6 +1,6 @@
 from adapt.intent import IntentBuilder
-from mycroft.skills.core import intent_handler
-from mycroft import MycroftSkill
+from mycroft.skills.core import MycroftSkill, intent_handler
+from mycroft import MycroftSkill, intent_file_handler
 
 
 class MyFirstSkill(MycroftSkill):
