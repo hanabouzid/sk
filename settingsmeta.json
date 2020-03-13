@@ -1,0 +1,17 @@
+{
+    "name": "Focus definition",
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "Description",
+                "fields": [
+                    {
+                        "name": "FOCUS DEFINITION",
+                        "type": "label",
+                        "label": "This skill will allow you to get the definition of focus corporation"
+                    }
+                ]
+            }
+        ]
+    }
+}
