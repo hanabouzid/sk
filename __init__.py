@@ -5,10 +5,11 @@ from mycroft import MycroftSkill, intent_file_handler
 
 class MyFirstSkill(MycroftSkill):
     def __init__(self):
-        MycroftSkill.__init__(self)
-    @intent_handler(IntentBuilder("").require('ask'))
-    def handle_query_time(self):
-        self.speak_dialog('rep')
+        super(MyFirstSkill, self).__init__(name="MyFirstSkill")
+
+    @intent_handler(IntentBuilder("").require("ask"))
+    def handle_hello_world_intent(self, message):
+        self.speak_dialog("rep")
 
 def create_skill():
     return MyFirstSkill()
